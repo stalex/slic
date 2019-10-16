@@ -1,12 +1,12 @@
 {
-  "name": "slic",
-  "description": "stoplight cli ",
+  "name": "slicli",
+  "description": "stoplight.io cli",
   "version": "0.0.0",
   "author": "stalex",
   "bin": {
-    "slic": "./bin/run"
+    "slicli": "./bin/run"
   },
-  "bugs": "https://github.com/stalex/slic/issues",
+  "bugs": "https://github.com/stalex/slicli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.19",
     "@oclif/config": "^1.13.3",
@@ -35,7 +35,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/stalex/slic",
+  "homepage": "https://github.com/stalex/slicli",
   "keywords": [
     "oclif"
   ],
@@ -43,13 +43,13 @@
   "main": "src/index.js",
   "oclif": {
     "commands": "./src/commands",
-    "bin": "slic",
+    "bin": "slicli",
     "plugins": [
       "@oclif/plugin-help",
       "@oclif/plugin-autocomplete"
     ]
   },
-  "repository": "stalex/slic",
+  "repository": "stalex/slicli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint .",
